@@ -1,3 +1,23 @@
+#!/usr/bin/env python3
+
+#This is a single line comment
+#Python program to illustrate surface area
+#Name:Faith wanakacha
+#Email:faithkhayanga05@gmail.com
+#Date:17th Feb 2023
+#File:surface_area.py
+
+
+
+
+
+
+
+
+
+
+
+
 #calculate the surface area
 pi=3.142
 r=input("enter the radius of the sphere")
