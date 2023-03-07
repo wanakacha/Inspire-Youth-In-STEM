@@ -1,0 +1,25 @@
+.h1{
+    font-size: 26px;
+    color: rgb(214, 16, 16);
+    align-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h2{
+    font-size: 26px;
+    color: darkgreen;
+    align-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h3{
+    font-size: 26px;
+    color: blue;
+    align-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    background-color: aqua;
+    color: cadetblue;
+    font-size: xx-large;
+    align-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
