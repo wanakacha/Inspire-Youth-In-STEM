@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+<title> MY ID</title>
+<link rel="stylesheet"href="style.css"> 
+</head>  
+<body>   
+    <h1>LOG IN </h1>
+    <label for="">name</label><br>
+    <input type="text"><br>
+    <label for="">age</label><br>
+    <input id="age"type="int"><br>
+    <button id="confirm_btn">CONFIRM</button>
+    <h2 id="get_in">YOU CAN GET IN</h2>
+    <script>
+       // let age=0
+        let msg=""
+document.getElementById("confirm_btn").onclick=function check_age(){
+    console.log("Button clicked ! ")
+    var age=document.getElementById("age").value;
+    console.log(age)
+    if(age<=18){
+        msg="you are not allowed to drive"
+        console.log("you are not allowed to drive")
+        document.getElementById("get_in").innerHTML=msg
+    }else{
+        msg="you are allowed to drive"
+        console.log("you are allowed to drive")
+        document.getElementById("get_in").innerHTML=msg
+    }
+}
+    </script>
+    <button>CLICK ME</button>  
+</html>  
